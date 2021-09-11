@@ -1,0 +1,3 @@
+classTimeInords{
+    String [] word = { ""}
+}

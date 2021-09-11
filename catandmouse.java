@@ -1,0 +1,25 @@
+public class catandmouse {
+    public class CatsAndAMouse {
+        public static void main(String[] args) {
+            Scanner in = new Scanner(System.in);
+            int q = in.nextInt();
+            for (int a0 = 0; a0 < q; a0++) {
+                int x = in.nextInt();
+                int y = in.nextInt();
+                int z = in.nextInt();
+                int a = Math.abs(x - z);
+                int b = Math.abs(y - z);
+                if (a == b) {
+                    System.out.println("Mouse C");
+                } else if (a > b) {
+                    System.out.println("Cat B");
+                } else if (a < b) {
+                    System.out.println("Cat A");
+                }
+    
+            }
+            in.close();
+        }
+    
+    
+}
